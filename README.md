@@ -1,46 +1,45 @@
-# 📊 Análise dos Resultados do Exame de Qualificação da UERJ
+# 📊 UERJ Qualifying Exam Results Analysis
 
-Projeto de **análise exploratória de dados** dos resultados dos Exames de Qualificação do Vestibular da Universidade do Estado do Rio de Janeiro (UERJ).
+This project performs an **exploratory data analysis** of the results from the UERJ (State University of Rio de Janeiro) Qualifying Exams.
 
-O objetivo é utilizar Python e Pandas para organizar os resultados dos candidatos e comparar o desempenho entre diferentes exames.
+The goal is to use Python and Pandas to organize candidate results and compare performance across different exams.
 
-## 🎯 Objetivos
+## 🎯 Objectives
 
-* Analisar a quantidade de candidatos presentes em cada exame;
-* Comparar a distribuição dos conceitos obtidos;
-* Analisar a distribuição da quantidade de acertos;
-* Gerar visualizações para facilitar a interpretação dos resultados;
-* Praticar manipulação e análise de dados utilizando Python.
+* Analyze the number of candidates who took each exam;
+* Compare the distribution of grades;
+* Analyze the distribution of correct answers;
+* Create visualizations to make the results easier to understand;
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Technologies Used
 
 * **Python**
-* **Pandas** — manipulação e análise dos dados
-* **NumPy** — operações numéricas
-* **Matplotlib** — criação dos gráficos
-* **Jupyter Notebook** — desenvolvimento e documentação da análise
+* **Pandas** — data manipulation and analysis
+* **NumPy** — numerical operations
+* **Matplotlib** — data visualization
+* **Jupyter Notebook** — development and documentation
 
-## 📁 Estrutura do projeto
+## 📁 Project Structure
 
 ```text
-📦 projeto-uerj
+📦 uerj-analysis
  ├── 📓 Uerj.ipynb
  ├── 📄 uerj_finalcsv
  ├── 📄 uerj_final2csv
  └── 📄 README.md
 ```
 
-> Os arquivos CSV contêm os resultados utilizados durante a análise.
+> The CSV files contain the results used throughout the analysis.
 
-## 📈 Análises realizadas
+## 📈 Analysis
 
-### 1. Quantidade de candidatos presentes
+### 1. Number of Candidates
 
-Comparação entre a quantidade de candidatos presentes no primeiro e no segundo Exame de Qualificação.
+Comparison of the number of candidates who took the first and second Qualifying Exams.
 
-### 2. Distribuição dos conceitos
+### 2. Grade Distribution
 
-Análise da quantidade de candidatos em cada conceito:
+Analysis of the number of candidates in each grade:
 
 * **A**
 * **B**
@@ -48,68 +47,50 @@ Análise da quantidade de candidatos em cada conceito:
 * **D**
 * **E**
 
-Essa análise permite observar como os resultados estão distribuídos entre as diferentes faixas de desempenho.
+This analysis helps visualize how candidate performance is distributed across the different grade levels.
 
-### 3. Distribuição dos acertos
+### 3. Correct Answers Distribution
 
-Também é analisada a quantidade de questões acertadas por candidato, utilizando histogramas para comparar a distribuição dos resultados entre os exames.
+The project also analyzes the number of correct answers per candidate, using histograms to compare the distribution of results between exams.
 
-## 📊 Visualizações
+## 📊 Visualizations
 
-O notebook gera gráficos como:
+The notebook includes visualizations such as:
 
-* Quantidade de candidatos presentes por exame;
-* Quantidade de candidatos por conceito;
-* Distribuição dos acertos;
-* Comparação entre o primeiro e o segundo Exame de Qualificação.
+* Number of candidates per exam;
+* Number of candidates by grade;
+* Distribution of correct answers;
+* Comparison between the first and second Qualifying Exams.
 
-## 🚀 Como executar
+## 🚀 How to Run
 
-### 1. Clone o repositório
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+cd YOUR-REPOSITORY
 ```
 
-### 2. Instale as dependências
+### 2. Install the dependencies
 
 ```bash
 pip install pandas numpy matplotlib jupyter
 ```
 
-### 3. Inicie o Jupyter Notebook
+### 3. Start Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Depois, abra o arquivo:
+Then open:
 
 ```text
 Uerj.ipynb
 ```
 
-### 4. Execute as células
+### 4. Run the notebook
 
-Certifique-se de que os arquivos CSV utilizados pelo notebook estejam no mesmo diretório do arquivo `.ipynb`.
+Make sure the CSV files used by the notebook are located in the same directory as the `.ipynb` file.
 
-## 🔎 Possíveis extensões
 
-Este projeto pode ser expandido futuramente para:
-
-* Comparar resultados de diferentes anos;
-* Analisar a evolução do desempenho dos candidatos;
-* Calcular médias, medianas e outras estatísticas;
-* Comparar a dificuldade dos exames;
-* Criar dashboards interativos;
-* Automatizar a coleta e tratamento dos resultados;
-* Armazenar os dados em um banco de dados para consultas SQL.
-
-## 📚 Objetivo do projeto
-
-Este projeto faz parte do meu processo de aprendizado em **Python, análise de dados e visualização de informações**, utilizando um conjunto de dados real relacionado ao vestibular da UERJ.
-
----
-
-**Desenvolvido com Python 🐍**
