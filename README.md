@@ -67,7 +67,7 @@ The notebook includes visualizations such as:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/mgnunes08/Uerj-Data-Analysis.git
 cd YOUR-REPOSITORY
 ```
 
